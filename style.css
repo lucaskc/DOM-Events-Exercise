@@ -1,0 +1,12 @@
+li:hover, button:hover {
+	cursor: pointer;
+	/*font-weight: bold;*/
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+li > button {
+	margin-left: 5px;
+}
