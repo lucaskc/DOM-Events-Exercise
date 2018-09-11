@@ -10,7 +10,7 @@ const removeParent = (event) => {
 }
 
 const addDeleteButton = (item) => {
-	let btn = document.createElement("button");
+	const btn = document.createElement("button");
 	btn.appendChild(document.createTextNode("Delete"));
 	btn.onclick = removeParent;
 	item.appendChild(btn);
