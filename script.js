@@ -37,7 +37,7 @@ const addItemOnKeypress = (event) => {
 }
 
 const toggleCheck = (event) => {
-	if (event.target.tagName === "li") {
+	if (event.target.tagName === "LI") {
 		event.target.classList.toggle("done");
 	}
 }
